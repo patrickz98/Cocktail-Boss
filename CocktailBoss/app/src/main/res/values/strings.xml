@@ -1,0 +1,103 @@
+<resources>
+    <!-- AddActivity -->
+    <string name="app_name">Cocktail Boss</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="cocktail_name">Cocktail Name</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="long_touch_note">Long touch to remove</string>
+    <string name="name">Name</string>
+    <string name="no_name">Cocktail has no name</string>
+    <string name="no_ingredients">No Ingredients</string>
+    <string name="mix_all_ingredients">Mix all ingredients.</string>
+    <string name="update">update</string>
+    <string name="added">added</string>
+    <string name="name_exist_already">Name already exist</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="description">Description</string>
+    <string name="add_cocktail">Add a Cocktail</string>
+    <string name="add_favorites">Added to Favorites: </string>
+    <string name="remove_favorits">Removed from Favorites: </string>
+    <string name="i_have_label">My Bar</string>
+    <string name="no_results">No Results</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="really_exit">Really Exit?</string>
+
+    <string name="delete">Delete</string>
+    <string name="sure_delete_cocktail">Are you sure you want to delete this cocktail?</string>
+
+    <string name="find_cocktails_own_ing">Find all cocktails that can be mixed with the ingredients in your bar.</string>
+    <string name="possible_cocktails">Possible Cocktails</string>
+
+    <!-- AddDialog -->
+    <string name="size">Size:</string>
+    <string name="unit">Unit:</string>
+    <string name="search">Search</string>
+
+    <!-- CocktailDetails -->
+    <string name="note_touch_add_shopping">Touch the ingredients to add to them to the shopping list</string>
+    <string name="glass_size">Glass Size: </string>
+    <string name="calculator">Calculator</string>
+    <string name="add_to_shopping">Add to Shopping: </string>
+
+    <!-- FindActivity -->
+    <string name="reset">Reset</string>
+    <string name="find">Find a Cocktail</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="top_ingredients">Top Ingredients</string>
+    <string name="all_ingredients">All Ingredients</string>
+    <string name="too_many_results">Too many results</string>
+
+    <!-- IngredientsDialog -->
+    <string name="search_ingredient">Search Ingredient</string>
+
+    <!-- FindResultsActivity -->
+    <string name="results">Results</string>
+
+    <!-- MainActivity -->
+    <string name="favorites">Favorites</string>
+    <string name="top">Top</string>
+    <string name="own_creations">Own Creations</string>
+    <string name="random">Random</string>
+    <string name="scan">Scan</string>
+
+    <!-- OwnCreationActivity -->
+    <!--<string name="add_cocktail">Add Cocktail</string>-->
+    <string name="no_creation_items">No own cocktails</string>
+
+    <!-- QrCodeScanner -->
+    <string name="scan_error">Scan Error</string>
+    <string name="scanner">Scan Qr Code</string>
+
+    <!-- ShoppingListActivity -->
+    <string name="shopping_list">Shopping List</string>
+    <string name="no_shopping_items">No items in shopping list</string>
+
+    <string name="no_items">No items in list</string>
+
+    <string name="camera_settings">Camera permission denied.\nSettings > Apps > Cocktail Boss > App permissions</string>
+    <string name="alcohol_percent">Alcohol Content</string>
+
+    <string name="all_alcoholic">All</string>
+    <string name="non_alcoholic">Non-Alcoholic</string>
+    <string name="alcoholic">Alcoholic</string>
+
+    <string name="my_ingredients">Extra Ingredients</string>
+    <string name="my_ingredients_edit">Edit Ingredient</string>
+    <string name="save">Save</string>
+    <string name="color">Color</string>
+    <string name="choose_color">Choose color</string>
+    <string name="no_ingredient_name">No Ingredient Name</string>
+
+    <string name="my_bar_offers">My bar offers</string>
+    <string name="search_by_ingredient">Search by Ingredients</string>
+    <string name="about">About</string>
+
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="qrCode">Qr Code</string>
+
+</resources>

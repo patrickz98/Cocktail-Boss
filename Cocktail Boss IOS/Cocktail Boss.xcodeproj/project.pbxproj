@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8D5C761EAE701300F884F0 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D5C751EAE701300F884F0 /* SampleViewController.swift */; };
+		CD8D5C781EAE71FA00F884F0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D5C771EAE71FA00F884F0 /* MainViewController.swift */; };
+		CDC5D1DB1EB0EA6800865D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC5D1DA1EB0EA6800865D33 /* Assets.xcassets */; };
+		CDCAA2DC1EAABBD100088CC5 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAA2DB1EAABBD100088CC5 /* HelloViewController.swift */; };
+		CDDF40FF1EA7AE6F00989768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF40FE1EA7AE6F00989768 /* AppDelegate.swift */; };
+		CDDF41011EA7AE6F00989768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF41001EA7AE6F00989768 /* ViewController.swift */; };
+		CDDF41091EA7AE6F00989768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDF41071EA7AE6F00989768 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD8D5C751EAE701300F884F0 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		CD8D5C771EAE71FA00F884F0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CDC5D1DA1EB0EA6800865D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCAA2DB1EAABBD100088CC5 /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		CDDF40FB1EA7AE6F00989768 /* Cocktail Boss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocktail Boss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDF40FE1EA7AE6F00989768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDF41001EA7AE6F00989768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDDF41081EA7AE6F00989768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDDF410A1EA7AE6F00989768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDF40F81EA7AE6F00989768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDF40F21EA7AE6F00989768 = {
+			isa = PBXGroup;
+			children = (
+				CDDF40FD1EA7AE6F00989768 /* Cocktail Boss */,
+				CDDF40FC1EA7AE6F00989768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDF40FC1EA7AE6F00989768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDF40FB1EA7AE6F00989768 /* Cocktail Boss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDF40FD1EA7AE6F00989768 /* Cocktail Boss */ = {
+			isa = PBXGroup;
+			children = (
+				CDC5D1DA1EB0EA6800865D33 /* Assets.xcassets */,
+				CDDF41071EA7AE6F00989768 /* LaunchScreen.storyboard */,
+				CDDF410A1EA7AE6F00989768 /* Info.plist */,
+				CDDF40FE1EA7AE6F00989768 /* AppDelegate.swift */,
+				CDDF41001EA7AE6F00989768 /* ViewController.swift */,
+				CDCAA2DB1EAABBD100088CC5 /* HelloViewController.swift */,
+				CD8D5C751EAE701300F884F0 /* SampleViewController.swift */,
+				CD8D5C771EAE71FA00F884F0 /* MainViewController.swift */,
+			);
+			path = "Cocktail Boss";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDF40FA1EA7AE6F00989768 /* Cocktail Boss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDF410D1EA7AE6F00989768 /* Build configuration list for PBXNativeTarget "Cocktail Boss" */;
+			buildPhases = (
+				CDDF40F71EA7AE6F00989768 /* Sources */,
+				CDDF40F81EA7AE6F00989768 /* Frameworks */,
+				CDDF40F91EA7AE6F00989768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocktail Boss";
+			productName = "Cocktail Boss";
+			productReference = CDDF40FB1EA7AE6F00989768 /* Cocktail Boss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDF40F31EA7AE6F00989768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Patrick Zierahn";
+				TargetAttributes = {
+					CDDF40FA1EA7AE6F00989768 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = M69Q9QQB69;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDDF40F61EA7AE6F00989768 /* Build configuration list for PBXProject "Cocktail Boss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDF40F21EA7AE6F00989768;
+			productRefGroup = CDDF40FC1EA7AE6F00989768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDF40FA1EA7AE6F00989768 /* Cocktail Boss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDF40F91EA7AE6F00989768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC5D1DB1EB0EA6800865D33 /* Assets.xcassets in Resources */,
+				CDDF41091EA7AE6F00989768 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDF40F71EA7AE6F00989768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCAA2DC1EAABBD100088CC5 /* HelloViewController.swift in Sources */,
+				CDDF41011EA7AE6F00989768 /* ViewController.swift in Sources */,
+				CD8D5C761EAE701300F884F0 /* SampleViewController.swift in Sources */,
+				CDDF40FF1EA7AE6F00989768 /* AppDelegate.swift in Sources */,
+				CD8D5C781EAE71FA00F884F0 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDDF41071EA7AE6F00989768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDF41081EA7AE6F00989768 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDDF410B1EA7AE6F00989768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDF410C1EA7AE6F00989768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDF410E1EA7AE6F00989768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M69Q9QQB69;
+				INFOPLIST_FILE = "Cocktail Boss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patrickz.app.Cocktail-Boss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDDF410F1EA7AE6F00989768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M69Q9QQB69;
+				INFOPLIST_FILE = "Cocktail Boss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patrickz.app.Cocktail-Boss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDF40F61EA7AE6F00989768 /* Build configuration list for PBXProject "Cocktail Boss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDF410B1EA7AE6F00989768 /* Debug */,
+				CDDF410C1EA7AE6F00989768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDF410D1EA7AE6F00989768 /* Build configuration list for PBXNativeTarget "Cocktail Boss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDF410E1EA7AE6F00989768 /* Debug */,
+				CDDF410F1EA7AE6F00989768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDF40F31EA7AE6F00989768 /* Project object */;
+}

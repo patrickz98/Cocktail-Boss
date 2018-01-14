@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Cocktail Boss</string>
+
+    <!-- AddActivity -->
+    <string name="ingredients">Zutaten</string>
+    <string name="cocktail_name">Cocktail Name</string>
+    <string name="add_ingredient">Zutaten Hinzufügen</string>
+    <string name="long_touch_note">Lange drücken um zu entfernen</string>
+    <string name="name">Name</string>
+    <string name="no_name">Cocktail hat keinen Namen</string>
+    <string name="no_ingredients">Keine Zutaten</string>
+    <string name="mix_all_ingredients">Alle Zutaten mixen.</string>
+    <string name="update">update</string>
+    <string name="added">Hinzugefügt</string>
+    <string name="name_exist_already">Name existiert bereits</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="description">Beschreibung</string>
+    <string name="add_cocktail">Einen Cocktail erstellen</string>
+    <string name="add_favorites">Zu Favoriten hinzugefügt: </string>
+    <string name="remove_favorits">Aus Favoriten entfernt: </string>
+    <string name="i_have_label">Meine Bar</string>
+
+    <string name="find_cocktails_own_ing">Finde alle Cocktails die mit den Zutaten aus deiner Bar gemixt werden können.</string>
+    <string name="no_results">Keine Resultate</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="really_exit">Wirklich verlassen?</string>
+
+    <string name="delete">Löschen</string>
+    <string name="sure_delete_cocktail">Bist du sicher das du den Cocktail löschen möchtest?</string>
+
+    <!-- AddDialog -->
+    <string name="size">Größe:</string>
+    <string name="unit">Einheit:</string>
+    <string name="search">Suche</string>
+
+    <!-- CocktailDetails -->
+    <string name="note_touch_add_shopping">Berühre die Zutaten um sie zur Einkaufsliste hinzuzufügen</string>
+    <string name="glass_size">Glass Größe: </string>
+    <string name="calculator">Rechner</string>
+    <string name="add_to_shopping">Zur Einkaufsliste hinzugefügt: </string>
+
+    <!-- FindActivity -->
+    <string name="reset">Rücksetzen</string>
+    <string name="find">Finde einen Cocktail</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="top_ingredients">Top Zutaten</string>
+    <string name="all_ingredients">Alle Zutaten</string>
+    <string name="too_many_results">Zu viele Ergebnisse</string>
+
+    <!-- IngredientsDialog -->
+    <string name="search_ingredient">Suche Zutaten</string>
+
+    <!-- FindResultsActivity -->
+    <string name="results">Ergebnis</string>
+
+    <!-- MainActivity -->
+    <string name="favorites">Favoriten</string>
+    <string name="top">Top</string>
+    <string name="own_creations">Eigenkreationen</string>
+    <string name="random">Zufälliger Cocktail</string>
+    <string name="scan">Scan</string>
+
+    <!-- OwnCreationActivity -->
+    <!--<string name="add_cocktail">Cocktail hinzufügen</string>-->
+    <string name="no_creation_items">Keine eigenden Cocktails</string>
+
+    <!-- QrCodeScanner -->
+    <string name="scan_error">Scan Error</string>
+    <string name="scanner">Scan Qr Code</string>
+
+    <!-- ShoppingListActivity -->
+    <string name="shopping_list">Einkaufsliste</string>
+    <string name="no_shopping_items">Keine Einträge in der Einkaufsliste</string>
+
+    <string name="no_items">Keine Einträge</string>
+    <string name="possible_cocktails">Mögliche Cocktails</string>
+
+    <string name="camera_settings">Camera permission denied.\nSettings > Apps > Cocktail Boss > App permissions</string>
+    <string name="alcohol_percent">Alkoholgehalt</string>
+
+    <string name="all_alcoholic">Alles</string>
+    <string name="non_alcoholic">Alkoholfrei</string>
+    <string name="alcoholic">Alkoholhaltig</string>
+
+    <string name="my_ingredients">Extra Zutaten</string>
+    <string name="my_ingredients_edit">Zutaten Bearbeiten</string>
+
+    <string name="save">Speichern</string>
+    <string name="color">Farbe</string>
+    <string name="choose_color">Wähle eine Farbe</string>
+    <string name="no_ingredient_name">Kein Zutatenname</string>
+
+    <string name="my_bar_offers">Meine Bar bietet</string>
+    <string name="search_by_ingredient">Cocktails nach Zutaten</string>
+    <string name="about">About</string>
+
+    <string name="share">Teilen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="qrCode">Qr Code</string>
+
+</resources>
