@@ -2,8 +2,10 @@ package com.patrickz.cocktailbossfree;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -146,19 +148,19 @@ public class Simple
 
     public static void shareIntent(Context context, String text)
     {
-//        Intent sendIntent = new Intent();
-//        sendIntent.setAction(Intent.ACTION_SEND);
-//        sendIntent.putExtra(Intent.EXTRA_TEXT, text);
-//        sendIntent.setType("text/plain");
-//        context.startActivity(sendIntent);
+        try
+        {
+            Intent sendIntent = new Intent();
+            sendIntent.setType("text/plain");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, text);
+            sendIntent.setAction(Intent.ACTION_SEND);
 
-        Intent sendIntent = new Intent();
-        sendIntent.setType("text/plain");
-        sendIntent.putExtra(Intent.EXTRA_TEXT, text);
-        sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.setPackage("com.whatsapp");
-
-        context.startActivity(sendIntent);
+            context.startActivity(sendIntent);
+        }
+        catch (Exception exc)
+        {
+            exc.printStackTrace();
+        }
     }
 
     public static void toastS(Context context, String text)

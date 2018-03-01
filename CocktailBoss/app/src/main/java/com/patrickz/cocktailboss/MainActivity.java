@@ -31,14 +31,16 @@ public class MainActivity extends Activity
 
         contentLayout.addView(layout);
 
-        RelativeLayout imgView = SimpleLayout.getImgCircle(
+        RelativeLayout imgView = SimpleLayout.getImgCircle
+        (
             context,
             imgId,
             60,
             30,
             "#3d3d3d",
             2,
-            "#ff4d4d");
+            "#ff4d4d"
+        );
 
         layout.addView(imgView);
 
@@ -142,6 +144,8 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        Log.d("####", "onCreate");
 
         // ## AdMarker INTERSTITIAL this ##
 
