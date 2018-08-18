@@ -1,5 +1,5 @@
 # Birthday
-password = 28051998
+password = 00000000
 encrypt:
 	tar --create --file - --gzip -- php | openssl aes-256-cbc -salt -k $(password) -out php.crypt; \
 	rm -rf php;
